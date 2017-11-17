@@ -43,12 +43,11 @@ import java.util.List;
 import java.util.Map;
 
 import adapter.UserAdapter;
-import testnetwork.SignupActivity;
 import util.NetworkUtils;
 
 
 /**
- * Created by Administrator on 2017/11/2.
+ * Created by Administrator on 2017/11/17
  */
 
 public class LoginActivity extends AppCompatActivity {
@@ -69,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(LoginActivity.this, testnetwork.MainActivity.class);
+                Intent in = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(in);
             }
         });
